@@ -5,10 +5,9 @@ def roll_call_dwarves(arr)
 end
 
 def summon_captain_planet(arr)
-  arr.collect {
+  puts arr.collect {
      |el| el.capitalize << "!"
   }
-  puts arr
 end
 
 def long_planeteer_calls# code an argument here
